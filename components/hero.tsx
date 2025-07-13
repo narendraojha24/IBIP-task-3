@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="big sale.jpeg"
                 alt="Shopping deals"
                 width={600}
                 height={500}
