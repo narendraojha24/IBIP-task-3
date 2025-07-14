@@ -57,5 +57,5 @@ A fully functional, responsive e-commerce website built with Next.js 15, TypeScr
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/shopkart-ecommerce.git
+git clone https://github.com/narendraojha24/IBIP-task-3.git
 cd shopkart-ecommerce
