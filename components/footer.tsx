@@ -197,7 +197,7 @@ export default function Footer() {
                 Security
               </Link>
             </div>
-            <div className="text-sm text-gray-400">© 2024 ShopKart. All rights reserved.</div>
+            <div className="text-sm text-gray-400">© 2025 ShopKart. All rights reserved.</div>
           </div>
         </div>
       </div>

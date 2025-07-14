@@ -1,8 +1,25 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { useEffect, useState } from "react"
+
+const images = [
+  { src: "phones.jpeg", alt: "Shopping deals" },
+  { src: "cloths.jpeg", alt: "Electronics sale" },
+  { src: "beauty_product.jpeg", alt: "Fashion sale" },
+  { src: "electronic.jpeg", alt: "Home essentials sale" },
+]
 
 export default function Hero() {
+   const [current, setCurrent] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length)
+    }, 2000)
+    return () => clearInterval(interval)
+  }, [])
   return (
     <section className="relative bg-gradient-to-r from-orange-50 to-orange-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
@@ -47,11 +64,11 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative z-10">
+            <div className="relative">
+            <div className="relative z-10 transition-all duration-700">
               <Image
-                src="big sale.jpeg"
-                alt="Shopping deals"
+                src={images[current].src}
+                alt={images[current].alt}
                 width={600}
                 height={500}
                 className="rounded-2xl shadow-2xl"

@@ -9,8 +9,8 @@ const categories = [
   { id: 2, name: "Fashion", image: "fashion.jpeg", count: "25,000+ items" },
   { id: 3, name: "Home & Kitchen", image: "home & kitchen.jpeg", count: "15,000+ items" },
   { id: 4, name: "Books", image: "books.jpeg", count: "50,000+ items" },
-  { id: 5, name: "Sports", image: "sports.jpeg", count: "8,000+ items" },
   { id: 6, name: "Beauty", image: "beauty.jpeg", count: "12,000+ items" },
+  { id: 5, name: "Sports", image: "sports.jpeg", count: "8,000+ items" },
   { id: 7, name: "Toys", image: "toys.jpeg", count: "5,000+ items" },
   { id: 8, name: "Automotive", image: "automotive.jpeg", count: "7,000+ items" },
 ]
