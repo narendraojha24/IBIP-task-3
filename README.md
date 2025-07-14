@@ -2,6 +2,8 @@
 
 A fully functional, responsive e-commerce website built with Next.js 15, TypeScript, and Tailwind CSS. Features a complete shopping experience with cart management, product filtering, wishlist, and checkout functionality.
 
+live - https://shopkart-nine-topaz.vercel.app/
+
 <img width="1817" height="913" alt="Screenshot 2025-07-14 113741" src="https://github.com/user-attachments/assets/a8d0156c-b207-410f-8529-de18a1f40660" />
 
 
